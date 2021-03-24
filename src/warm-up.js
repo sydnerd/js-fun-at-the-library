@@ -84,19 +84,22 @@ console.log(logFavoriteBook());
 
 // Create a new variable "books" and assign it to an Array of 5 different
 // book titles, represented by their names as Strings.
-
+var books = ["The Chain","The Wife Between Us","American Dirt","When the Crawdad's sing","Big Little Lies"];
 
 // Write the code to access the 3rd element of the Array, using bracket
 // notation.
-
+books[2];
+console.log(books[2]);
 
 // Create a new variable "belowTwoHundred" and assign it to an Array of 12
 // different numbers below two hundred.
 
+var belowTwoHundred = [9,110,68,90,56,43,56,23,1,100,199,47];
 
 // Write the code to access the 5th element of the array, using bracket notation.
 
-
+belowTwoHundred[4];
+console.log(belowTwoHundred[4]);
 //------------------------- Objects -------------------------//
 
 // Create a new variable "dictionary" and assign to it an object literal with two
