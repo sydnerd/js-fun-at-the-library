@@ -34,8 +34,8 @@ function writeBook(bookTitle,bookCharacter,genre) {
 }
 
 function editBook(book){
-  newPageCount = book.pageCount - (book.pageCount*.25);
-  console.log(newPageCount);
+  book.pageCount = book.pageCount* .75
+  return book.pageCount;
 }
 
 module.exports = {
