@@ -11,10 +11,8 @@ function createLibrary(name, shelves){
 };
 
 function addBook(library,book){
-  var bookAdded =[];
-  bookAdded.pop(library.shelves.fantasy[0]);
+  library.shelves[book.genre].push(book);
 };
-return bookAdded
 
 
 module.exports = {
